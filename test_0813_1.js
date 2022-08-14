@@ -2,7 +2,6 @@ function solution(p) {
     var answer = '';
     var cnt = 0;
     var u = ""; 
-    var v = p;
     
     // p의 길이 만큼 for문 순회
     // 옳은 괄호 인지 확인  - "("일 경우 cnt 증가, ")"일 경우 cnt 감소
