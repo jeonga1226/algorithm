@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\lecture\\section3\\1.js"
+            "program": "${workspaceFolder}\\test_0828.js"
         }
     ]
 }
