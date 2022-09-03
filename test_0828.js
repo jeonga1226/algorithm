@@ -13,9 +13,7 @@ const getPermutations= function (arr, selectNumber) {
           return fixed + permutations;
         //   [fixed, ...permutation]
       }); // 돌아온 순열에 대해 떼 놓은(fixed) 값 붙이기
-    //   console.log("attached   : ", JSON.stringify(attached)); // 중복제거
       console.log("...attached   : ", JSON.stringify(...attached)); // 중복제거
-    //   console.log("attached join   : ", ...attached.join(''));
       results.push(...attached); // 배열 spread syntax 로 모두다 push
     });
   
