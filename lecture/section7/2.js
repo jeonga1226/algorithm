@@ -1,5 +1,6 @@
 /* 버블정렬 */
 // 서로 이웃한 데이터들을 비교하며 가장 큰 데이터를 가장 뒤로 보냄
+// 끝을 -1 하면서 순회
 function solution(arr){
     let answer=arr;
     // for(let i=0;i<arr.length-1;i++){
